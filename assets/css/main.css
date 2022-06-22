@@ -1,0 +1,34 @@
+@import url('./_variables.css');
+@import url('./_utilities.css');
+@import url('./_mian_header.css');
+@font-face {
+    font-family: 'iranYekan';
+    font-weight: normal;
+    font-style: normal;
+    src: url('../fonts/Yekan.woff') format('woff'), url('../fonts//Yekan.ttf') format('ttf'), url('../fonts/Yekan.eot') format('eot');
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+ul,
+li,
+ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #444;
+}
+
+body {
+    direction: rtl;
+    font-family: 'iranYekan';
+    background-color: var(--color-body);
+    font-size: 1.4rem;
+    line-height: 1.7;
+}
