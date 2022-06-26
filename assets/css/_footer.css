@@ -1,0 +1,140 @@
+.main-footer {
+    width: 100%;
+    background-color: #020202;
+    padding: 30px;
+}
+
+.main-footer .footer-container {
+    width: 100%;
+}
+
+.footer-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 15px;
+}
+
+.footer-wrapper .footer-item {
+    flex-basis: 100%;
+    margin: 15px 0;
+}
+
+.footer-item .footer-logo {
+    display: block;
+    height: 40px;
+}
+
+.footer-logo img {
+    width: 140px;
+    line-height: 30px;
+}
+
+.footer-container h3 {
+    font-size: 12px;
+    color: #fafafa;
+    line-height: 30px;
+}
+
+.footer-item h6 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #fafafa;
+}
+
+.footer-item a {
+    font-size: 14px;
+    color: #fafafa;
+    transition: color 0.3s ease-in-out;
+}
+
+.footer-item li:hover a {
+    color: var(--color-primary);
+}
+
+.footer-item:last-of-type {
+    display: flex;
+    gap: 8px;
+    justify-content: space-around;
+}
+
+.footer-item:last-of-type>div {
+    background-color: #fafafa;
+    width: 80px;
+    padding: 5px;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-item:last-of-type>div img {
+    width: 100%;
+}
+
+.footer-container .copy-right {
+    text-align: center;
+    font-size: 14px;
+    color: #acacac;
+    margin: 15px 0;
+}
+
+.footer-container .social {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.social h3 {
+    font-size: 14px;
+    color: #fafafa;
+}
+
+.footer-container .social .social-links {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+}
+
+.social .social-links {
+    margin: 15px 0;
+}
+
+.social-links a {
+    font-size: 26px;
+}
+
+@media (min-width: 380px) {
+    .footer-item:last-of-type>div {
+        width: 100px;
+    }
+}
+
+@media (min-width: 640px) {
+    .footer-wrapper {
+        gap: 26px;
+    }
+    .footer-wrapper .footer-item {
+        flex-basis: 21%;
+    }
+    .footer-item a {
+        font-size: 16px;
+    }
+    .footer-container .copy-right {
+        font-size: 18px;
+    }
+    .social h3 {
+        font-size: 16px;
+    }
+    .social-links a {
+        font-size: 32px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .footer-wrapper .footer-item {
+        flex-basis: 18%;
+    }
+    .social-links a {
+        font-size: 36px;
+    }
+}

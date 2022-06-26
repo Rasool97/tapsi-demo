@@ -1,0 +1,46 @@
+.cities {
+    display: none;
+    width: 100%;
+    padding: 20px 0;
+    margin-bottom: 50px;
+    background: url('../images/map-back.svg') no-repeat center;
+}
+
+.cities .cities-container {
+    padding: 0 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.cities .title {
+    font-size: 32px;
+    margin-bottom: 40px;
+}
+
+.cities .cities-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.cities-wrapper .city {
+    flex-basis: 12.5%;
+    font-size: 16px;
+    color: #4d4d4d;
+    text-align: center;
+}
+
+.city .name {
+    font-size: 16px;
+}
+
+.city .english-name {
+    font-size: 14px;
+}
+
+@media (min-width: 768px) {
+    .cities {
+        display: block;
+    }
+}

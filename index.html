@@ -88,55 +88,55 @@
             <nav class="services-tabs">
                 <ul class="tabs">
                     <li class="tab-item">
-                        <a href="#illus-classic" class="tab-link" x-on:click="openTabs='illus-classic'">
+                        <a href="#illus-classic" class="tab-link" x-bind:class="openTabs === 'illus-classic' ? 'active' : ''" x-on:click="openTabs='illus-classic'">
                             <img src="./assets/images/cc-classic.png" alt="cc-classic">
                             <span>تپسی کلاسیک</span>
                         </a>
                     </li>
                     <li class="tab-item">
-                        <a href="#illus-motopeyk" class="tab-link" x-on:click="openTabs='illus-motopeyk'">
+                        <a href="#illus-motopeyk" class="tab-link" x-bind:class="openTabs === 'illus-motopeyk' ? 'active' : ''" x-on:click="openTabs='illus-motopeyk'">
                             <img src="./assets//images/cc-motopeyk.png" alt="cc-motopeyk">
                             <span>موتوپیک</span>
                         </a>
                     </li>
                     <li class="tab-item">
-                        <a href="#illus-autopeyk" class="tab-link" x-on:click="openTabs='illus-autopeyk'">
+                        <a href="#illus-autopeyk" class="tab-link" x-bind:class="openTabs === 'illus-autopeyk' ? 'active' : ''" x-on:click="openTabs='illus-autopeyk'">
                             <img src="./assets//images/cc-autopeyk.png" alt="cc-autopeyk">
                             <span>اتوپیک</span>
                         </a>
                     </li>
                     <li class="tab-item">
-                        <a href="#illus-plus" class="tab-link" x-on:click="openTabs='illus-plus'">
+                        <a href="#illus-plus" class="tab-link" x-bind:class="openTabs === 'illus-plus' ? 'active' : ''" x-on:click="openTabs='illus-plus'">
                             <img src="./assets/images/cc-plus.png" alt="cc-plus">
                             <span>تپسی پلاس</span>
                         </a>
                     </li>
                     <li class="tab-item">
-                        <a href="#illus-tel" class="tab-link" x-on:click="openTabs='illus-tel'">
+                        <a href="#illus-tel" class="tab-link" x-bind:class="openTabs === 'illus-tel' ? 'active' : ''" x-on:click="openTabs='illus-tel'">
                             <img src="./assets/images/cc-tel.png" alt="cc-tel">
                             <span>تپسی تلفنی</span>
                         </a>
                     </li>
                     <li class="tab-item">
-                        <a href="#illus-hamyar" class="tab-link" x-on:click="openTabs='illus-hamyar'">
+                        <a href="#illus-hamyar" class="tab-link" x-bind:class="openTabs === 'illus-hamyar' ? 'active' : ''" x-on:click="openTabs='illus-hamyar'">
                             <img src="./assets/images/cc-hamyar.png" alt="cc-hamyar">
                             <span>همیار</span>
                         </a>
                     </li>
                     <li class="tab-item">
-                        <a href="#illus-hamkhat" class="tab-link" x-on:click="openTabs='illus-hamkhat'">
+                        <a href="#illus-hamkhat" class="tab-link" x-bind:class="openTabs === 'illus-hamkhat' ? 'active' : ''" x-on:click="openTabs='illus-hamkhat'">
                             <img src="./assets/images/cc-hamkhat.png" alt="cc-hamkhat">
                             <span>هم خط</span>
                         </a>
                     </li>
                     <li class="tab-item">
-                        <a href="#illus-taxi" class="tab-link" x-on:click="openTabs='illus-taxi'">
+                        <a href="#illus-taxi" class="tab-link" x-bind:class="openTabs === 'illus-taxi' ? 'active' : ''" x-on:click="openTabs='illus-taxi'">
                             <img src="./assets/images/cc-taxi.png" alt="cc-taxi">
                             <span>تاکسی</span>
                         </a>
                     </li>
                     <li class="tab-item">
-                        <a href="#illus-line" class="tab-link" x-on:click="openTabs='illus-line'">
+                        <a href="#illus-line" class="tab-link" x-bind:class="openTabs === 'illus-line' ? 'active' : ''" x-on:click="openTabs='illus-line'">
                             <img src="./assets/images/cc-line.png" alt="cc-line">
                             <span>تپسی لاین</span>
                         </a>
@@ -330,6 +330,324 @@
             </div>
         </section>
         <!-- End Parallax Section -->
+
+        <!-- Start Drivers Section -->
+        <section class="drivers container">
+            <div class="drivers-image">
+                <img src="./assets//images/driver.webp" alt="">
+            </div>
+            <div class="drivers-content">
+                <h2 class="title">مزایای تپسی برای رانندگان تاکسی اینترنتی</h2>
+                <p class="description">رانندگان (سفیران) به‌عنوان همکاران تپسی، جایگاه ویژه‌ای برای شرکت دارند. به همین‌دلیل مزایای مختلفی برای آنها در نظر گرفته شده است.</p>
+                <h3 class="sub-title">کسب درآمد روزانه، پایدار و بدون محدودیت</h3>
+                <div class="feature-list">
+                    <ul>
+                        <li>۱. امکان تسویه‌ی اعتبار در هر ساعت از شبانه‌روز</li>
+                        <li>۲. طرح‌های تشویقی، ماموریت‌ها‌، پاداش و اعطای وام‌های قرض‌الحسنه به‌طور دوره‌ای</li>
+                        <li>۳. نمایش مکان‌های پردرخواست در اپلیکیشن و دریافت سفرهای طلایی</li>
+                    </ul>
+                </div>
+                <h3 class="sub-title">تضمین امنیت و پشتیبانی رانندگان</h3>
+                <div class="feature-list">
+                    <ul>
+                        <li>۱. پشتیبانی ۲۴ ساعته</li>
+                        <li>۲. امکانات امنیت سفر شامل تماس اضطراری با واحد امنیت و پشتیبانی ۲۴ ساعته تیم امنیت</li>
+                    </ul>
+                </div>
+                <h3 class="sub-title">واریز سهمیه بنزین ویژه رانندگان تپسی</h3>
+                <div class="feature-list">
+                    <ul>
+                        <li>۱. نمایش میزان پیمایش ماهانه درون اپلیکیشن</li>
+                        <li>۲. محاسبه‌ی مسافت طی شده تا مسافر در پیمایش</li>
+                    </ul>
+                </div>
+                <h3 class="sub-title">استفاده از مزایای
+                    <span>
+                        <a href="#">باشگاه رانندگان تپسی</a>
+                    </span>
+                </h3>
+                <div class="feature-list">
+                    <ul>
+                        <li>۱. تخفیف روی خدمات خودرو مانند بیمه، سرویس‌های دوره‌ای، خرید لاستیک و ...</li>
+                        <li>۲. تخفیف روی خدمات رفاهی مانند وام قرض‌الحسنه، خدمات درمانی، خرید اقساطی و ...</li>
+                    </ul>
+                </div>
+                <div class="links-wrapper">
+                    <a href="#" class="btn btn-secondary">ثبت نام راننده تاکسی آنلاین</a>
+                    <a href="#" class="btn btn-secondary">دانلود برنامه تپسی راننده</a>
+                </div>
+            </div>
+        </section>
+        <!-- End Drivers Section -->
+
+        <!-- Start Blog Post Section -->
+        <section class="blog-post container">
+            <div class="blog">
+                <h2 class="posts-title">تازه ترین های وبلاگ تپسی</h2>
+                <div class="posts">
+                    <a href="#" class="post">
+                        <div class="post-image">
+                            <img src="./assets/images/etehadie-no-logo-scaled.jpg" alt="img">
+                        </div>
+                        <div class="post-content">
+                            <h3>دومین دوره انتخابات اتحادیه کسب و کارهای مجازی</h3>
+                            <p>دیدگاه و اهداف میلاد منشی‌پور، کاندیدای دومین دوره انتخابات اتحادیه کسب و کارهای مجازی درباره‌ من من میلاد منشی پور، مدیرعامل و هم بنیان‌گذار تپسی هستم؛ سال 1394 پس از یک دهه فعالیت در خارج از کشور در حوزه مشاوره مدیریت، به
+                                ایران برگشتم و به همراه دو نفر از دوستانم، سامانه درخواست آنلاین خودرو ...</p>
+                        </div>
+                    </a>
+                    <a href="#" class="post">
+                        <div class="post-image">
+                            <img src="./assets/images/A68CB9F1-AA36-4B75-99B7-DE475A5FFBDF.jpeg" alt="img">
+                        </div>
+                        <div class="post-content">
+                            <h3>تخفیف ویژه دیجی‌کالا جت برای کاربران تپسی</h3>
+                            <p>سوپرمارکت آنلاین «دیجی‌کالا جت» با ارسال سریع محصولات سوپرمارکتی شروع به کار کرده است و سفارش‌های آنلاین سوپرمارکتی را از فروشگاه‌های زنجیره‌ای معتبر و یا فروشگاه‌های منتخب شهرهای تهران، کرج، اصفهان، قم و مشهد تامین می‌کند.
+                                این مجموعه برای شما کاربران تپسی تخفیف ویژه‌ای درنظر گرفته است و با استفاده از کد زیر ...</p>
+                        </div>
+                    </a>
+                    <a href="#" class="post">
+                        <div class="post-image">
+                            <img src="./assets/images/blog2-scaled.jpg" alt="img">
+                        </div>
+                        <div class="post-content">
+                            <h3>برای دریافت دز سوم واکسن، با تخفیف به مراکز واکسیناسیون بروید!</h3>
+                            <p>تپسی با همراهی شرکت سیناژن (تولیدکننده واکسن اسپایکوژن) برای رفتن به مراکز واکسیناسیون و تزریق دز سوم، تخفیف ویژه برایتان درنظر گرفته است. دیگر چیزی به نوروز باقی نمانده و این روزهای پایانی سال همه ما در تکاپو هستیم تا کارهای
+                                ناتمام را تمام کنیم و تعطیلات سال نو را با خاطری آسوده در کنار ...</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <!-- End Blog Post Section -->
+
+        <!-- Start Cities Section -->
+        <section class="cities">
+            <div class="container">
+                <div class="cities-container">
+                    <h2 class="title">تپسی در ایران</h2>
+                    <div class="cities-wrapper">
+                        <div class="city">
+                            <h3 class="name">تهران</h3>
+                            <h3 class="english-name">Tehran</h3>
+                        </div>
+                        <div class="city">
+                            <h3 class="name">کرج</h3>
+                            <h3 class="english-name">Karaj</h3>
+                        </div>
+                        <div class="city">
+                            <h3 class="name">مشهد</h3>
+                            <h3 class="english-name">Mashhad</h3>
+                        </div>
+                        <div class="city">
+                            <h3 class="name">اصفهان</h3>
+                            <h3 class="english-name">Isfahan</h3>
+                        </div>
+                        <div class="city">
+                            <h3 class="name">شیراز</h3>
+                            <h3 class="english-name">Shiraz</h3>
+                        </div>
+                        <div class="city">
+                            <h3 class="name">ارومیه</h3>
+                            <h3 class="english-name">Urmia</h3>
+                        </div>
+                        <div class="city">
+                            <h3 class="name">لاهیجان</h3>
+                            <h3 class="english-name">Lahijan</h3>
+                        </div>
+                        <div class="city">
+                            <h3 class="name">رشت</h3>
+                            <h3 class="english-name">Rasht</h3>
+                        </div>
+                        <div class="city">
+                            <h3 class="name">انزلی</h3>
+                            <h3 class="english-name">Anzali</h3>
+                        </div>
+                        <div class="city">
+                            <h3 class="name">تبریز</h3>
+                            <h3 class="english-name">Tabriz</h3>
+                        </div>
+                        <div class="city">
+                            <h3 class="name">ساری</h3>
+                            <h3 class="english-name">Sari</h3>
+                        </div>
+                        <div class="city">
+                            <h3 class="name">یزد</h3>
+                            <h3 class="english-name">Yazd</h3>
+                        </div>
+                        <div class="city">
+                            <h3 class="name">کرمان</h3>
+                            <h3 class="english-name">Kerman</h3>
+                        </div>
+                        <div class="city">
+                            <h3 class="name">قم</h3>
+                            <h3 class="english-name">Qom</h3>
+                        </div>
+                        <div class="city">
+                            <h3 class="name">اهواز</h3>
+                            <h3 class="english-name">Ahvaz</h3>
+                        </div>
+                        <div class="city">
+                            <h3 class="name">بابل</h3>
+                            <h3 class="english-name">Babol</h3>
+                        </div>
+                        <div class="city">
+                            <h3 class="name">قائم‌شهر</h3>
+                            <h3 class="english-name">Qaem Shahr</h3>
+                        </div>
+                        <div class="city">
+                            <h3 class="name">آمل</h3>
+                            <h3 class="english-name">Amol</h3>
+                        </div>
+                        <div class="city">
+                            <h3 class="name">کرمانشاه</h3>
+                            <h3 class="english-name">Kermanshah</h3>
+                        </div>
+                        <div class="city">
+                            <h3 class="name">گرگان</h3>
+                            <h3 class="english-name">Gorgan</h3>
+                        </div>
+                        <div class="city">
+                            <h3 class="name">قزوین</h3>
+                            <h3 class="english-name">Qazvin</h3>
+                        </div>
+                        <div class="city">
+                            <h3 class="name">اراک</h3>
+                            <h3 class="english-name">Arak</h3>
+                        </div>
+                        <div class="city">
+                            <h3 class="name">نیشابور</h3>
+                            <h3 class="english-name">Neyshabur</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End Cities Section -->
+
+        <!-- Start Footer -->
+        <footer class="main-footer">
+            <div class="container">
+                <div class="footer-container">
+                    <div class="footer-wrapper">
+                        <div class="footer-item">
+                            <a href="#" class="footer-logo">
+                                <img src="./assets/images/tapsi-logo-white.svg" alt="footer-logo">
+                            </a>
+                            <h3>اپلیکیشن درخواست خودرو و پیک</h3>
+                        </div>
+                        <div class="footer-item">
+                            <h6>تپسی</h6>
+                            <ul>
+                                <li>
+                                    <a href="#">وبلاگ تپسی</a>
+                                </li>
+                                <li>
+                                    <a href="#">فرصت شغلی</a>
+                                </li>
+                                <li>
+                                    <a href="#">تماس با ما</a>
+                                </li>
+                                <li>
+                                    <a href="#">لوگو و هویت سازمانی</a>
+                                </li>
+                                <li>
+                                    <a href="#">معرفی راننده به تپسی</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="footer-item">
+                            <h6>مسافران</h6>
+                            <ul>
+                                <li>
+                                    <a href="#">دانلود اپ مسافر</a>
+                                </li>
+                                <li>
+                                    <a href="#">نسخه وب تپسی</a>
+                                </li>
+                                <li>
+                                    <a href="#">پرسش های متداول مسافران</a>
+                                </li>
+                                <li>
+                                    <a href="#">شرایط و قوانین مسافران</a>
+                                </li>
+                                <li>
+                                    <a href="#">باشگاه مشتریان</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="footer-item">
+                            <h6>رانندگان</h6>
+                            <ul>
+                                <li>
+                                    <a href="#">دانلود اپ سفیر</a>
+                                </li>
+                                <li>
+                                    <a href="#">ثبت نام راننده تاکسی اینترنتی</a>
+                                </li>
+                                <li>
+                                    <a href="#">پرسش های متداول سفیران</a>
+                                </li>
+                                <li>
+                                    <a href="#">شرایط و قوانین سفیران</a>
+                                </li>
+                                <li>
+                                    <a href="#">باشگاه سفیران</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="footer-item">
+                            <h6>کسب و کارها</h6>
+                            <ul>
+                                <li>
+                                    <a href="#">پنل سازمانی تپسی</a>
+                                </li>
+                                <li>
+                                    <a href="#">خرید کد اعتبار و تخفیف</a>
+                                </li>
+                                <li>
+                                    <a href="#">دریافت API</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="footer-item">
+                            <div>
+                                <img src="./assets/images/etehadiye.png" alt="logo">
+                            </div>
+                            <div>
+                                <img src="./assets/images/logo.png" alt="logo">
+                            </div>
+                            <div>
+                                <img src="./assets/images/logo (1).png" alt="logo">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="copy-right">
+                        <p>تمام حقوق مادی و معنوی این وبسایت متعلق به تپسی است.</p>
+                    </div>
+                    <div class="social">
+                        <h3>تپسی در شبکه های اجتماعی</h3>
+                        <div class="social-links">
+                            <a href="#">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                            <a href="#">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                            <a href="#">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                            <a href="#">
+                                <i class="fab fa-linkedin"></i>
+                            </a>
+                            <a href="#">
+                                <i class="fab fa-telegram"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- End Footer -->
     </main>
 
 

@@ -53,6 +53,7 @@
 .feature-detail a.btn {
     align-self: flex-start;
     margin-top: 15px;
+    font-size: 14px;
 }
 
 @media (min-width: 768px) {
@@ -68,5 +69,8 @@
     .feature .feature-image {
         width: 100%;
         display: flex;
+    }
+    .feature-detail a.btn {
+        font-size: 16px;
     }
 }

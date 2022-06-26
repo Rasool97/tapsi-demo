@@ -36,6 +36,10 @@
     transition: all 0.3s linear;
 }
 
+.tab-item .tab-link.active img {
+    opacity: 1;
+}
+
 .tab-item .tab-link:hover img {
     opacity: 1;
 }

@@ -37,17 +37,31 @@
     outline: 0;
     border: 0;
     border-radius: 8px;
-    padding: 8px 30px;
+    padding: 12px 30px;
     margin: 10px 0;
     text-align: center;
     cursor: pointer;
-    font-size: 14px;
+    font-size: inherit;
     white-space: nowrap;
+    transition: background-color 0.3s ease-in-out;
 }
 
 .btn-primary {
     background-color: var(--color-primary);
     color: var(--color-white);
+}
+
+.btn-primary:hover {
+    background-color: var(--color-primary-light);
+}
+
+.btn-secondary {
+    background-color: var(--color-secondary);
+    color: var(--color-white);
+}
+
+.btn-secondary:hover {
+    background-color: var(--color-secondary-light);
 }
 
 .btn-block {

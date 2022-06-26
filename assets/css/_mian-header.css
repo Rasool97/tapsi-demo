@@ -74,7 +74,7 @@
 }
 
 .nav input[type='checkbox']:checked~.nav-list {
-    max-height: 38vh;
+    max-height: 39vh;
     opacity: 1;
     visibility: visible;
 }

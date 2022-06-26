@@ -5,6 +5,10 @@
 @import url('./_serivces.css');
 @import url('./_features.css');
 @import url('./_parallax.css');
+@import url('./_drivers.css');
+@import url('./_blog-post.css');
+@import url('./_cities.css');
+@import url('./_footer.css');
 @font-face {
     font-family: 'iranYekan';
     font-weight: normal;
